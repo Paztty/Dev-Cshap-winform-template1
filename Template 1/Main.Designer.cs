@@ -40,10 +40,10 @@
             this.labelSoftName = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
             this.tlpActiveWindow = new System.Windows.Forms.TableLayoutPanel();
+            this.labelActiveWindow = new System.Windows.Forms.Label();
             this.btnClose = new System.Windows.Forms.Button();
             this.btnMaximize = new System.Windows.Forms.Button();
             this.btnMinimize = new System.Windows.Forms.Button();
-            this.labelActiveWindow = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -270,6 +270,21 @@
             this.tlpActiveWindow.Size = new System.Drawing.Size(1286, 116);
             this.tlpActiveWindow.TabIndex = 2;
             // 
+            // labelActiveWindow
+            // 
+            this.labelActiveWindow.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.labelActiveWindow.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.labelActiveWindow.Font = new System.Drawing.Font("Microsoft YaHei UI", 50F, System.Drawing.FontStyle.Bold);
+            this.labelActiveWindow.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(122)))), ((int)(((byte)(193)))), ((int)(((byte)(255)))));
+            this.labelActiveWindow.Location = new System.Drawing.Point(38, 0);
+            this.labelActiveWindow.Margin = new System.Windows.Forms.Padding(0);
+            this.labelActiveWindow.Name = "labelActiveWindow";
+            this.labelActiveWindow.Size = new System.Drawing.Size(1134, 116);
+            this.labelActiveWindow.TabIndex = 4;
+            this.labelActiveWindow.Text = "Active Window";
+            this.labelActiveWindow.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.labelActiveWindow.MouseDown += new System.Windows.Forms.MouseEventHandler(this.labelActiveWindow_MouseDown);
+            // 
             // btnClose
             // 
             this.btnClose.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
@@ -290,6 +305,7 @@
             this.btnClose.TabIndex = 0;
             this.btnClose.Text = "O";
             this.btnClose.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.btnClose.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
             this.btnClose.UseVisualStyleBackColor = false;
             this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
             // 
@@ -313,6 +329,7 @@
             this.btnMaximize.TabIndex = 3;
             this.btnMaximize.Text = "O";
             this.btnMaximize.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.btnMaximize.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
             this.btnMaximize.UseVisualStyleBackColor = false;
             this.btnMaximize.Click += new System.EventHandler(this.btnMaximize_Click);
             // 
@@ -336,23 +353,9 @@
             this.btnMinimize.TabIndex = 2;
             this.btnMinimize.Text = "O";
             this.btnMinimize.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.btnMinimize.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
             this.btnMinimize.UseVisualStyleBackColor = false;
             this.btnMinimize.Click += new System.EventHandler(this.btnMinimize_Click);
-            // 
-            // labelActiveWindow
-            // 
-            this.labelActiveWindow.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.labelActiveWindow.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.labelActiveWindow.Font = new System.Drawing.Font("Microsoft YaHei UI", 50F, System.Drawing.FontStyle.Bold);
-            this.labelActiveWindow.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(122)))), ((int)(((byte)(193)))), ((int)(((byte)(255)))));
-            this.labelActiveWindow.Location = new System.Drawing.Point(38, 0);
-            this.labelActiveWindow.Margin = new System.Windows.Forms.Padding(0);
-            this.labelActiveWindow.Name = "labelActiveWindow";
-            this.labelActiveWindow.Size = new System.Drawing.Size(1134, 116);
-            this.labelActiveWindow.TabIndex = 4;
-            this.labelActiveWindow.Text = "Active Window";
-            this.labelActiveWindow.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.labelActiveWindow.MouseDown += new System.Windows.Forms.MouseEventHandler(this.labelActiveWindow_MouseDown);
             // 
             // label1
             // 
