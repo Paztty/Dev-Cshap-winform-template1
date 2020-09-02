@@ -1,0 +1,17 @@
+C:\Users\HVTan\source\repos\Template_project1\bin\Debug\Template_project1.exe.config
+C:\Users\HVTan\source\repos\Template_project1\bin\Debug\Template_project1.exe
+C:\Users\HVTan\source\repos\Template_project1\bin\Debug\Template_project1.pdb
+C:\Users\HVTan\source\repos\Template_project1\obj\Debug\Template_project1.MainForm.resources
+C:\Users\HVTan\source\repos\Template_project1\obj\Debug\Template_project1.Properties.Resources.resources
+C:\Users\HVTan\source\repos\Template_project1\obj\Debug\Template_project1.csproj.GenerateResource.cache
+C:\Users\HVTan\source\repos\Template_project1\obj\Debug\Template_project1.csproj.CoreCompileInputs.cache
+C:\Users\HVTan\source\repos\Template_project1\obj\Debug\Template_project1.exe
+C:\Users\HVTan\source\repos\Template_project1\obj\Debug\Template_project1.pdb
+C:\Users\HVTan\source\repos\Template_project1\obj\Debug\Template_project1.csprojAssemblyReference.cache
+C:\Users\HVTan\source\repos\Template_project1\obj\Debug\Template_project1.FormFile.resources
+C:\Users\HVTan\source\repos\Template_project1\obj\Debug\Template_project1.FormUser.resources
+C:\Users\HVTan\source\repos\Template_project1\obj\Debug\Template_project1.FormSetting.resources
+C:\Users\HVTan\source\repos\Template_project1\obj\Debug\Template_project1.FormRunTest.resources
+C:\Users\HVTan\source\repos\Template_project1\obj\Debug\Template_project1.FormReport.resources
+C:\Users\HVTan\source\repos\Template_project1\obj\Debug\Template_project1.FormHelp.resources
+C:\Users\HVTan\source\repos\Template_project1\obj\Debug\Template_project1.DaeyoungInfor.resources
