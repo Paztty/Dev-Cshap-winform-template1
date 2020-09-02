@@ -52,16 +52,15 @@ namespace Template_project1
         private void btnMaximize_Click(object sender, EventArgs e)
         {
             if (WindowState == FormWindowState.Maximized)
+            { 
                 this.WindowState = FormWindowState.Normal;
+            }      
             else
             {
-                this.MaximumSize = new System.Drawing.Size(Screen.PrimaryScreen.WorkingArea.Width + 20  , Screen.PrimaryScreen.WorkingArea.Height + 17);
+                //this.MaximumSize = new System.Drawing.Size(Screen.PrimaryScreen.WorkingArea.Width + 20  , Screen.PrimaryScreen.WorkingArea.Height + 17);
                 this.WindowState = FormWindowState.Maximized;
-            }
-                
-            
+            }   
         }
-
 
         private Button currentButton;
         private void ActivateButton(object btnSender)
